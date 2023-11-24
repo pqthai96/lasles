@@ -1,3 +1,3 @@
 npx sass ./assets/sass/app.scss ./assets/css/app.css --watch
 Github: https://github.com/evondev/lasles/tree/master/sass
-Design: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjc4TERoVDJLTXlxRHpwamNucldLMTJZazc3Z3xBQ3Jtc0trTHp4MC1Tbm5sRlUtN21xSlh5QlZsZHpkV2hVdU9XLUlrdi1CVjRQaUhOVWN0REVpLXFZRkRtX3UtZHdBSkx3Tk5OSUcyLUg5ZHJ2ZVFjZTFxRDVrVDJrZ3BIeUdoTTgybHZzcXQ2RjN0WmtQc2hIVQ&q=https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F858999227165747995&v=7RRsWz-XXHA
+Design: https://www.figma.com/community/file/858999227165747995
