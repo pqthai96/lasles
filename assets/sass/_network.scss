@@ -1,0 +1,22 @@
+@import "variables";
+
+.network {
+ background-color: $gray-light-color;
+
+ .heading {
+  max-width: 384px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+ }
+
+ .text {
+  margin-bottom: 155px;
+ }
+
+ &-image {
+  img {
+   margin: 0 auto;
+  }
+ }
+}

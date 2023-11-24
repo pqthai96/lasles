@@ -1,0 +1,21 @@
+.subscribe {
+ transform: translateY(50%);
+
+ &-container {
+  padding: 59px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 34px 57px -31px rgba(#0D1025, 0.06);
+ }
+
+ &-content {
+  max-width: 410px;
+ }
+
+ .heading {
+  max-width: 371px;
+ }
+}

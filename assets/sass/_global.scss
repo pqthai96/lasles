@@ -1,0 +1,66 @@
+@import "variables";
+
+body {
+ line-height: 1;
+ font-family: $font;
+ color: $text-color;
+ font-weight: 400;
+}
+
+button {
+ cursor: pointer;
+ outline: none;
+ border: none;
+ font-family: $font;
+}
+
+.wrapper {
+ max-width: 1470px;
+ padding-left: 15px;
+ padding-right: 15px;
+ margin: 0 auto;
+}
+
+.container {
+ max-width: 1140px;
+ margin: 0 auto;
+}
+
+.button {
+ display: inline-block;
+ padding: 13px 45px;
+ border-radius: 50px;
+ font-family: $font;
+ line-height: 1;
+ cursor: pointer;
+ border: none;
+ outline: none;
+
+ &--primary {
+  font-weight: 700;
+  background-color: $primary-color;
+  color: white;
+ }
+
+ &--outline {
+  background-color: transparent;
+  color: $primary-color;
+  font-weight: 500;
+  border: 1px solid
+ }
+
+ &--rounded {
+  border-radius: 10px;
+  padding: 17px 65px;
+ }
+
+ &--shadow {
+  box-shadow: 0 30px 54px -15px #F53838;
+ }
+}
+
+@media screen and (max-width: 767px) {
+ .button {
+  padding: 13px 26px;
+ }
+}
